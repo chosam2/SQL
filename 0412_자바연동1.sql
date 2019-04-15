@@ -1,3 +1,7 @@
+# 0412_자바연동1
+
+# 자바연동을 위해서 기본적인 TABLE, SEQUENCE 생성
+
 create table jdbc_board(
     board_no number not null,  -- 번호(자동증가)
     board_title varchar2(100) not null, -- 제목
